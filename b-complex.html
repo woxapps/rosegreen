@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Detail | BeautySpot - HTML Template for Beauty Salons</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- STYLESHEETS : begin -->
+    <link rel="stylesheet" type="text/css" href="assets/css/general.css" />
+    <!-- Default styles generated from assets/scss/general.scss (do not edit) -->
+    <link rel="stylesheet" type="text/css" href="assets/css/color-schemes/default.css" />
+    <!-- Default color scheme generated from assets/scss/color-schemes/default.scss (change to other pre-defined or custom color scheme) -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Place your own CSS into this file -->
+    <!-- STYLESHEETS : end -->
+  </head>
+  <body>
+    <!-- WRAPPER : begin -->
+    <div id="wrapper">
+      <!-- HEADER : begin -->
+      <header
+        id="header"
+        class="header--has-languages header--has-search header--has-cta header--has-contact header--has-social-links header--has-collision-detection header--has-expanded-panel"
+        style="background-image: url('images/header_bg.jpg')">
+        <div class="header__inner">
+          <div class="header__content">
+            <!-- HEADER LANGUAGES : begin -->
+            <!-- <div class="header-languages">
+              <span class="screen-reader-text">Choose language</span>
+              <ul class="header-languages__list">
+                <li class="header-languages__item header-languages__item--active">
+                  <a href="#en" class="header-languages__item-link">EN</a>
+                </li>
+
+                <li class="header-languages__item">
+                  <a href="#de" class="header-languages__item-link">DE</a>
+                </li>
+
+                <li class="header-languages__item">
+                  <a href="#es" class="header-languages__item-link">ES</a>
+                </li>
+              </ul>
+
+              <button type="button" class="header-languages__toggle" title="Choose language">
+                <span class="header-languages__toggle-icon icon-close" aria-hidden="true"></span>
+                <span class="header-languages__toggle-label">EN</span>
+              </button>
+            </div> -->
+            <!-- HEADER LANGUAGES : end -->
+
+            <!-- HEADER BRANDING : begin -->
+            <div class="header-branding">
+              <div class="header-branding__inner">
+                <!-- HEADER LOGO : begin -->
+                <div class="header-logo">
+                  <a href="index.html" class="header-logo__link">
+                    <svg
+                      class="header-logo__image"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      version="1.1"
+                      width="200"
+                      height="100"
+                      viewBox="0 0 460.239 223.642">
+                      <defs>
+                        <clipPath id="clip_0">
+                          <path
+                            transform="matrix(1,0,0,-1,0,223.642)"
+                            d="M0 223.642H460.239V0H0Z" />
+                        </clipPath>
+                      </defs>
+                      <g id="layer_1" data-name="Layer 1">
+                        <g clip-path="url(#clip_0)">
+                          <path
+                            transform="matrix(1,0,0,-1,285.8186,146.9068)"
+                            d="M0 0C-.024 1.546-.205 2.998-.544 4.357-.883 5.716-1.365 6.905-1.987 7.925-2.605 8.942-3.366 9.745-4.27 10.331-5.172 10.917-6.197 11.208-7.345 11.208-8.538 11.208-9.641 10.905-10.646 10.295-11.654 9.686-12.532 8.859-13.284 7.818-14.03 6.774-14.616 5.552-15.039 4.145-15.461 2.742-15.672 1.228-15.672-.387-15.672-2.001-15.461-3.527-15.039-4.954-14.616-6.382-14.03-7.637-13.284-8.716-12.532-9.793-11.654-10.64-10.646-11.262-9.641-11.883-8.538-12.193-7.345-12.193-6.174-12.193-5.13-11.889-4.217-11.28-3.304-10.67-2.537-9.834-1.915-8.767-1.294-7.702-.821-6.459-.491-5.044-.164-3.625 0-2.108 0-.491ZM8.294-17.852C8.294-20.356 7.854-22.553 6.974-24.439 6.096-26.324 4.931-27.9 3.479-29.167 2.025-30.428 .357-31.386-1.529-32.031-3.414-32.673-5.365-32.994-7.378-32.994-9.136-32.994-10.795-32.751-12.35-32.257-13.909-31.766-15.351-31.011-16.674-29.991-17.997-28.974-19.184-27.671-20.24-26.092-21.292-24.51-22.196-22.631-22.946-20.451H-14.827C-13.914-22.464-12.847-23.924-11.631-24.825-10.414-25.726-8.996-26.178-7.378-26.178-6.373-26.178-5.418-25.979-4.514-25.581-3.616-25.182-2.828-24.62-2.162-23.895-1.493-23.169-.967-22.312-.58-21.328-.193-20.347 0-19.267 0-18.096V-14.934C-1.148-16.198-2.495-17.189-4.041-17.902-5.588-18.616-7.122-18.976-8.645-18.976-11.033-18.976-13.165-18.488-15.039-17.516-16.912-16.546-18.5-15.214-19.8-13.528-21.099-11.842-22.092-9.87-22.77-7.607-23.449-5.347-23.79-2.941-23.79-.387-23.79 2.168-23.431 4.574-22.717 6.834-22.003 9.094-20.977 11.069-19.642 12.755-18.307 14.441-16.698 15.773-14.81 16.745-12.924 17.715-10.81 18.203-8.466 18.203-7.836 18.203-7.173 18.161-6.483 18.078-5.79 17.997-5.088 17.813-4.375 17.534-3.661 17.254-2.935 16.85-2.195 16.32-1.46 15.794-.726 15.086 0 14.197V17.498H8.294Z"
+                            fill="#80c461" />
+                          <path
+                            transform="matrix(1,0,0,-1,297.6882,129.4083)"
+                            d="M0 0H6.15L7.521-4.392C8.597-2.706 9.715-1.433 10.875-.58 12.035 .277 13.305 .702 14.688 .702 15.11 .702 15.788 .616 16.728 .44 17.664 .265 18.788-.187 20.1-.913V-8.08C19.235-7.753 18.488-7.494 17.87-7.307 17.248-7.122 16.734-6.985 16.323-6.905 15.913-6.822 15.595-6.774 15.375-6.765L14.899-6.748C13.87-6.748 12.945-6.962 12.124-7.396 11.303-7.83 10.613-8.404 10.048-9.118 9.489-9.834 9.052-10.658 8.749-11.595 8.446-12.532 8.294-13.504 8.294-14.512V-35.772H0Z"
+                            fill="#80c461" />
+                          <path
+                            transform="matrix(1,0,0,-1,341.6485,143.2175)"
+                            d="M0 0C-.143 1.124-.428 2.144-.862 3.057-1.297 3.97-1.862 4.761-2.566 5.43-3.268 6.096-4.101 6.614-5.061 6.974-6.022 7.339-7.075 7.521-8.223 7.521-9.278 7.521-10.257 7.322-11.158 6.923-12.059 6.525-12.856 5.983-13.546 5.308-14.239 4.627-14.813 3.83-15.268 2.917-15.725 2.001-16.035 1.029-16.198 0ZM-16.198-6.29C-16.059-7.577-15.755-8.802-15.285-9.962-14.818-11.122-14.221-12.139-13.492-13.019-12.767-13.897-11.925-14.595-10.964-15.11-10.004-15.624-8.972-15.883-7.872-15.883-5.835-15.883-4.143-15.327-2.792-14.215-1.448-13.1-.375-11.431 .422-9.207H8.08C7.613-11.339 6.858-13.236 5.814-14.899 4.773-16.561 3.536-17.968 2.108-19.116 .678-20.264-.895-21.141-2.62-21.75-4.339-22.36-6.114-22.663-7.94-22.663-10.518-22.663-12.838-22.149-14.899-21.12-16.96-20.088-18.717-18.705-20.168-16.972-21.623-15.238-22.741-13.219-23.526-10.911-24.311-8.603-24.703-6.174-24.703-3.619-24.703-1.228-24.311 1.062-23.526 3.25-22.741 5.442-21.623 7.372-20.168 9.049-18.717 10.724-16.954 12.053-14.881 13.037-12.808 14.019-10.483 14.512-7.907 14.512-5.424 14.512-3.176 14.069-1.16 13.177 .853 12.288 2.575 11.051 4.006 9.472 5.433 7.89 6.528 6.028 7.292 3.884 8.053 1.74 8.434-.574 8.434-3.057V-6.29Z"
+                            fill="#80c461" />
+                          <path
+                            transform="matrix(1,0,0,-1,376.3593,143.2175)"
+                            d="M0 0C-.143 1.124-.428 2.144-.862 3.057-1.297 3.97-1.862 4.761-2.566 5.43-3.268 6.096-4.101 6.614-5.061 6.974-6.022 7.339-7.075 7.521-8.223 7.521-9.278 7.521-10.257 7.322-11.158 6.923-12.059 6.525-12.856 5.983-13.546 5.308-14.239 4.627-14.813 3.83-15.268 2.917-15.725 2.001-16.035 1.029-16.198 0ZM-16.198-6.29C-16.059-7.577-15.755-8.802-15.285-9.962-14.818-11.122-14.221-12.139-13.492-13.019-12.767-13.897-11.925-14.595-10.964-15.11-10.004-15.624-8.972-15.883-7.872-15.883-5.835-15.883-4.143-15.327-2.792-14.215-1.448-13.1-.375-11.431 .422-9.207H8.08C7.613-11.339 6.858-13.236 5.814-14.899 4.773-16.561 3.536-17.968 2.108-19.116 .678-20.264-.895-21.141-2.62-21.75-4.339-22.36-6.114-22.663-7.94-22.663-10.518-22.663-12.838-22.149-14.899-21.12-16.96-20.088-18.717-18.705-20.168-16.972-21.623-15.238-22.741-13.219-23.526-10.911-24.311-8.603-24.703-6.174-24.703-3.619-24.703-1.228-24.311 1.062-23.526 3.25-22.741 5.442-21.623 7.372-20.168 9.049-18.717 10.724-16.954 12.053-14.881 13.037-12.808 14.019-10.483 14.512-7.907 14.512-5.424 14.512-3.176 14.069-1.16 13.177 .853 12.288 2.575 11.051 4.006 9.472 5.433 7.89 6.528 6.028 7.292 3.884 8.053 1.74 8.434-.574 8.434-3.057V-6.29Z"
+                            fill="#80c461" />
+                          <path
+                            transform="matrix(1,0,0,-1,386.5652,129.4083)"
+                            d="M0 0H8.294V-4.217C9.837-2.459 11.461-1.201 13.159-.437 14.857 .321 16.597 .702 18.378 .702 20.207 .702 21.846 .431 23.297-.104 24.748-.642 25.973-1.41 26.969-2.406 27.966-3.402 28.73-4.598 29.271-5.989 29.809-7.384 30.08-8.936 30.08-10.646V-35.772H21.786V-11.981C21.786-11.069 21.658-10.26 21.4-9.558 21.141-8.856 20.79-8.258 20.347-7.765 19.901-7.274 19.374-6.905 18.765-6.658 18.155-6.412 17.51-6.29 16.832-6.29 15.728-6.29 14.664-6.516 13.635-6.974 12.603-7.432 11.696-8.041 10.911-8.802 10.126-9.564 9.495-10.441 9.014-11.437 8.532-12.433 8.294-13.471 8.294-14.548V-35.772H0Z"
+                            fill="#80c461" />
+                          <path
+                            transform="matrix(1,0,0,-1,169.2747,147.3644)"
+                            d="M0 0C0-1.594 .199-3.093 .598-4.496 .996-5.903 1.564-7.131 2.302-8.187 3.039-9.243 3.937-10.072 4.99-10.682 6.043-11.289 7.226-11.595 8.538-11.595 9.849-11.595 11.039-11.289 12.106-10.682 13.171-10.072 14.078-9.243 14.827-8.187 15.58-7.131 16.151-5.903 16.552-4.496 16.951-3.093 17.147-1.594 17.147 0 17.147 1.594 16.951 3.099 16.552 4.517 16.151 5.933 15.58 7.17 14.827 8.223 14.078 9.278 13.171 10.114 12.106 10.735 11.039 11.357 9.849 11.666 8.538 11.666 7.226 11.666 6.043 11.357 4.99 10.735 3.937 10.114 3.039 9.278 2.302 8.223 1.564 7.17 .996 5.933 .598 4.517 .199 3.099 0 1.594 0 0M-8.294 0C-8.294 2.554-7.919 4.96-7.167 7.22-6.42 9.483-5.329 11.461-3.899 13.159-2.471 14.857-.708 16.201 1.389 17.183 3.485 18.167 5.867 18.658 8.538 18.658 11.208 18.658 13.593 18.167 15.69 17.183 17.786 16.201 19.556 14.857 20.995 13.159 22.437 11.461 23.538 9.483 24.299 7.22 25.06 4.96 25.441 2.554 25.441 0 25.441-2.528 25.066-4.919 24.317-7.167 23.564-9.415 22.47-11.384 21.031-13.07 19.588-14.756 17.819-16.088 15.722-17.058 13.629-18.03 11.244-18.518 8.573-18.518 5.903-18.518 3.518-18.03 1.421-17.058-.675-16.088-2.442-14.756-3.884-13.07-5.323-11.384-6.42-9.415-7.167-7.167-7.919-4.919-8.294-2.528-8.294 0"
+                            fill="#ef74a1" />
+                          <path
+                            transform="matrix(1,0,0,-1,203.9262,152.4243)"
+                            d="M0 0C.024-1.216 .211-2.254 .562-3.111 .913-3.964 1.383-4.654 1.969-5.183 2.555-5.71 3.221-6.09 3.97-6.322 4.722-6.56 5.516-6.676 6.361-6.676 7.155-6.676 7.937-6.611 8.698-6.483 9.457-6.355 10.138-6.135 10.735-5.832 11.333-5.528 11.806-5.118 12.16-4.603 12.511-4.086 12.686-3.432 12.686-2.635 12.686-1.981 12.475-1.407 12.053-.913 11.631-.422 11.074 .03 10.385 .44 9.695 .85 8.904 1.219 8.011 1.546 7.122 1.874 6.206 2.201 5.27 2.531 3.842 3.024 2.388 3.566 .913 4.163-.562 4.761-1.897 5.49-3.093 6.343-4.285 7.2-5.264 8.217-6.028 9.4-6.786 10.584-7.167 12.017-7.167 13.703-7.167 15.389-6.828 16.861-6.15 18.116-5.469 19.368-4.544 20.409-3.372 21.242-2.201 22.075-.815 22.696 .791 23.104 2.394 23.514 4.137 23.719 6.01 23.719 8.071 23.719 9.944 23.484 11.631 23.017 13.317 22.547 14.765 21.84 15.969 20.891 17.177 19.942 18.125 18.729 18.818 17.254 19.508 15.776 19.901 14.045 19.993 12.053H11.806C11.69 12.945 11.461 13.685 11.122 14.283 10.783 14.881 10.355 15.363 9.837 15.725 9.323 16.088 8.737 16.347 8.08 16.499 7.426 16.65 6.736 16.728 6.01 16.728 4.392 16.728 3.158 16.439 2.302 15.865 1.445 15.291 1.017 14.536 1.017 13.599 1.017 13.013 1.228 12.487 1.653 12.017 2.073 11.55 2.629 11.116 3.322 10.718 4.012 10.319 4.803 9.95 5.692 9.611 6.581 9.272 7.506 8.924 8.466 8.576 9.897 8.059 11.354 7.497 12.844 6.887 14.331 6.278 15.672 5.564 16.867 4.743 18.063 3.925 19.041 2.959 19.8 1.847 20.561 .735 20.942-.574 20.942-2.073 20.942-4.086 20.54-5.814 19.731-7.256 18.922-8.695 17.834-9.873 16.463-10.786 15.092-11.699 13.504-12.374 11.702-12.808 9.897-13.239 8-13.456 6.01-13.456 4.11-13.456 2.302-13.177 .58-12.615-1.142-12.053-2.653-11.214-3.952-10.102-5.255-8.99-6.301-7.589-7.098-5.903-7.895-4.217-8.33-2.248-8.398 0Z"
+                            fill="#ef74a1" />
+                          <path
+                            transform="matrix(1,0,0,-1,250.4222,143.2175)"
+                            d="M0 0C-.143 1.124-.428 2.144-.862 3.057-1.297 3.97-1.862 4.761-2.566 5.43-3.268 6.096-4.101 6.614-5.061 6.974-6.022 7.339-7.075 7.521-8.223 7.521-9.278 7.521-10.257 7.322-11.158 6.923-12.059 6.525-12.856 5.983-13.546 5.308-14.239 4.627-14.812 3.83-15.268 2.917-15.725 2.001-16.035 1.029-16.198 0ZM-16.198-6.29C-16.059-7.577-15.755-8.802-15.285-9.962-14.818-11.122-14.221-12.139-13.492-13.019-12.767-13.897-11.925-14.595-10.964-15.11-10.004-15.624-8.972-15.883-7.872-15.883-5.835-15.883-4.143-15.327-2.792-14.215-1.448-13.1-.375-11.431 .422-9.207H8.08C7.613-11.339 6.858-13.236 5.814-14.899 4.773-16.561 3.536-17.968 2.108-19.116 .678-20.264-.895-21.141-2.62-21.75-4.339-22.36-6.114-22.663-7.94-22.663-10.518-22.663-12.838-22.149-14.899-21.12-16.96-20.088-18.717-18.705-20.168-16.972-21.623-15.238-22.741-13.219-23.526-10.911-24.311-8.603-24.703-6.174-24.703-3.619-24.703-1.228-24.311 1.062-23.526 3.25-22.741 5.442-21.623 7.372-20.168 9.049-18.717 10.724-16.954 12.053-14.881 13.037-12.808 14.019-10.483 14.512-7.907 14.512-5.424 14.512-3.176 14.069-1.16 13.177 .853 12.288 2.575 11.051 4.006 9.472 5.433 7.89 6.528 6.028 7.292 3.884 8.053 1.74 8.434-.574 8.434-3.057V-6.29Z"
+                            fill="#ef74a1" />
+                          <path
+                            transform="matrix(1,0,0,-1,117.3532,159.9109)"
+                            d="M0 0C9.528-7.405 21.331-9.204 30.559-9.204 39.21-9.204 45.6-7.622 45.731-7.589L46.195-7.47 23.169 22.559H-14.497C-11.711 12.906-6.878 5.347 0 0"
+                            fill="#ddf1f4" />
+                          <path
+                            transform="matrix(1,0,0,-1,54.8596,140.3409)"
+                            d="M0 0V-27.885-28.516L.633-28.453C8.502-27.68 17.266-25.316 24.662-19.571 31.543-14.224 36.379-6.664 39.165 2.989H0V1.041Z"
+                            fill="#ddf1f4" />
+                          <path
+                            transform="matrix(1,0,0,-1,152.0811,70.7785)"
+                            d="M0 0C-3.354 17.694-18.075 31.412-36.251 33.253L-40.429 33.464H-97.223V0Z"
+                            fill="#ad2355" />
+                          <path
+                            transform="matrix(1,0,0,-1,152.1697,78.3132)"
+                            d="M0 0C0-.636-.018-1.27-.048-1.897-.018-1.27 0-.636 0 0M-97.309-25.78H-8.481C-2.786-18.723 .633-9.757 .633 0 .633 2.617 .387 5.177-.083 7.661H-97.309Z"
+                            fill="#ef74a1" />
+                          <path
+                            transform="matrix(1,0,0,-1,143.6667,103.969799)"
+                            d="M0 0H-88.807V-33.464H-49.624C-48.119-28.233-47.206-22.399-46.915-15.946V-16.059H-43.528C-43.233-22.464-42.323-28.263-40.827-33.464H-3.197L-18.78-13.147C-11.333-10.611-4.844-5.995 0 0"
+                            fill="#e983a0" />
+                          <path
+                            transform="matrix(1,0,0,-1,116.9515,95.628498)"
+                            d="M0 0-.839-.839V-1.674L-.419-1.847 0-1.674 .836-.836V0Z"
+                            fill="#ffffff" />
+                          <path
+                            transform="matrix(1,0,0,-1,118.1817,104.894)"
+                            d="M0 0C-3.577-3.577-8.336-5.549-13.4-5.549-13.715-5.549-14.03-5.537-14.346-5.522L-4.083 4.74V5.576H-4.919L-15.175-4.681C-15.199-4.157-15.211-3.634-15.196-3.111-15.036 1.713-13.07 6.248-9.659 9.659-8.041 11.28-6.168 12.576-4.089 13.519-1.615 14.64 1.02 15.208 3.747 15.208 4.321 15.208 4.898 15.181 5.469 15.128 5.989 9.495 4.018 4.018 0 0M-15.553 4.348-15.749 3.869-15.904 3.456-16.073 2.968-16.21 2.552-16.359 2.055-16.478 1.633-16.603 1.127-16.701 .699-16.805 .187-16.882-.247-16.963-.767-17.022-1.201-17.076-1.734-17.114-2.168-17.126-2.29C-18.11-2.495-19.119-2.599-20.13-2.599-21.914-2.599-23.666-2.278-25.331-1.645-27.481-.827-29.435 .509-30.981 2.215-33.426 4.913-34.773 8.404-34.773 12.047-34.773 16.204-33.946 20.234-32.31 24.025-31.51 25.884-30.52 27.653-29.366 29.31-28.441 30.636-27.413 31.888-26.294 33.051-24.332 35.088-22.089 36.854-19.636 38.276H-19.633C-18.262 39.07-16.814 39.76-15.327 40.331-14.967 40.468-14.604 40.598-14.239 40.72L-14.108 40.765C-13.775 40.875-13.439 40.982-13.097 41.083L-13.037 41.098C-12.668 41.205-12.297 41.306-11.925 41.401H-11.922C-11.532 41.499-11.143 41.589-10.747 41.672-10.432 41.737-10.117 41.8-9.802 41.856H-9.79C-9.483 41.91-9.18 41.96-8.874 42.005L-8.695 42.029-7.937 42.127C-7.622 42.163-7.31 42.195-6.994 42.219L-6.962 42.222C-6.453 42.264-5.962 42.293-5.481 42.308V15.042L-5.623 14.967-5.974 14.786-6.423 14.545-6.768 14.349-7.203 14.09-7.542 13.879-7.964 13.596-8.288 13.376-8.71 13.07-9.014 12.841-9.439 12.502-9.718 12.276-10.173 11.88-10.396 11.681-11.054 11.054-11.726 10.349-11.937 10.108-12.359 9.62-12.6 9.32-12.96 8.862-13.198 8.535-13.519 8.083-13.751 7.735-14.042 7.28-14.262 6.914-14.527 6.456-14.732 6.075-14.976 5.612-15.163 5.222-15.381 4.749ZM-19.142-8.648V-4.538C-18.479-4.499-17.819-4.416-17.165-4.3-17.147-5.035-17.093-5.769-16.998-6.492L-16.995-6.501ZM-21.114-13.436-22.199-12.353C-21.884-9.495-22.491-6.614-23.889-4.14-22.979-4.351-22.051-4.482-21.114-4.538ZM-30.776-5.448-24.141-12.083-24.531-12.091C-27.859-12.091-30.987-10.798-33.339-8.446-35.992-5.793-37.286-2.177-36.932 1.543-35.519 1.677-34.101 1.567-32.736 1.228L-32.441 .889C-30.687-1.047-28.468-2.56-26.03-3.485L-25.607-3.637C-24.034-5.847-23.222-8.532-23.306-11.244L-29.937-4.612H-30.776ZM-34.773 42.308C-34.294 42.293-33.803 42.264-33.295 42.222H-33.292C-32.878 42.189-32.468 42.145-32.061 42.094L-31.585 42.032-30.823 41.916C-30.473 41.859-30.122 41.794-29.774 41.725L-29.408 41.651C-29.078 41.58-28.748 41.505-28.421 41.422L-28.227 41.375C-26.83 41.018-25.462 40.557-24.135 40.007L-23.695 39.822-23.044 39.528-22.411 39.225-22.101 39.07-22.497 38.802-22.934 38.505-23.535 38.071-23.936 37.773-24.579 37.271-24.909 37.006C-25.215 36.756-25.515 36.501-25.81 36.239L-25.851 36.203C-26.161 35.93-26.464 35.65-26.764 35.365L-27.053 35.076-27.642 34.49-27.978 34.133-28.486 33.58-28.828 33.191-29.298 32.643-29.634 32.227-30.074 31.671-30.398 31.24-30.812 30.669-31.121 30.229-31.516 29.637-31.805 29.191-32.183 28.575-32.447 28.129-32.816 27.469-33.048 27.044-33.426 26.297-33.607 25.938C-33.785 25.563-33.955 25.188-34.121 24.807-34.327 24.329-34.52 23.847-34.701 23.359L-34.746 23.246-34.773 23.169ZM-32.23 46.995C-30.785 46.939-29.34 46.757-27.924 46.454-27.071 46.269-26.196 46.032-25.322 45.746-23.677 45.202-22.098 44.497-20.623 43.644-19.713 43.117-18.794 42.496-17.884 41.797L-17.557 41.541-17.89 41.383-18.637 41.033-19.142 40.78-19.856 40.405-20.13 40.262-20.234 40.316C-20.903 40.685-21.578 41.027-22.268 41.345L-22.277 41.348C-25.417 42.802-28.751 43.727-32.23 44.102ZM-17.798 46.766-17.983 46.68-18.518 46.436-19.202 46.109-19.731 45.832-20.13 45.627-20.522 45.832-21.055 46.109-21.733 46.433-22.277 46.683-22.458 46.766C-20.956 47.212-19.3 47.212-17.798 46.766M-17.296 44.833C-16.966 44.979-16.63 45.119-16.294 45.249L-16.02 45.356C-15.663 45.493-15.303 45.621-14.94 45.743L-14.934 45.746C-14.06 46.032-13.186 46.269-12.332 46.454-10.917 46.757-9.472 46.939-8.026 46.995V44.102L-8.098 44.093C-9.124 43.977-10.141 43.813-11.146 43.602H-11.152L-11.158 43.599C-11.512 43.525-11.863 43.444-12.213 43.361L-12.294 43.34C-12.609 43.263-12.924 43.18-13.236 43.09L-13.459 43.028-14.233 42.796-14.628 42.668-15.232 42.463-15.47 42.38-15.562 42.457-15.963 42.787-16.115 42.912-16.683 43.358-17.421 43.908-17.614 44.045-18.158 44.423C-17.893 44.554-17.629 44.684-17.358 44.806ZM7.339 16.151C7.28 16.594 6.932 16.942 6.492 16.998 5.585 17.117 4.663 17.18 3.747 17.18 1.243 17.18-1.189 16.737-3.512 15.877V43.311C-3.512 43.858-3.952 44.298-4.496 44.298-5.008 44.298-5.528 44.28-6.055 44.253V48C-6.055 48.544-6.498 48.985-7.042 48.985-8.954 48.985-10.872 48.782-12.746 48.381-13.525 48.214-14.322 47.994-15.116 47.747-16.641 48.613-18.363 49.074-20.13 49.074-21.893 49.074-23.615 48.613-25.141 47.747-25.935 47.994-26.732 48.214-27.511 48.381-29.384 48.782-31.302 48.985-33.214 48.985-33.759 48.985-34.202 48.544-34.202 48V44.253C-34.728 44.28-35.249 44.298-35.76 44.298-36.304 44.298-36.744 43.858-36.744 43.311V12.047C-36.744 8.666-35.721 5.397-33.827 2.644-35.055 2.816-36.31 2.828-37.541 2.665L-38.053 2.156C-38.612-2.091-37.199-6.26-34.175-9.281-31.6-11.857-28.177-13.275-24.531-13.275-24.034-13.275-23.532-13.239-23.038-13.186L-21.114-15.11V-15.128C-21.114-15.672-20.674-16.112-20.13-16.112-19.582-16.112-19.142-15.672-19.142-15.128V-10.319L-16.16-7.336-16.151-7.339C-15.241-7.458-14.316-7.521-13.4-7.521-7.809-7.521-2.555-5.344 1.395-1.395 6.031 3.241 8.196 9.638 7.339 16.151"
+                            fill="#ffffff" />
+                          <path
+                            transform="matrix(1,0,0,-1,85.8301,107.092899)"
+                            d="M0 0H-.836V-.836L-.288-1.383 .131-1.558 .547-1.386V-.547Z"
+                            fill="#ffffff" />
+                        </g>
+                      </g>
+                    </svg>
+
+                    <!-- <img src="images/ROSEGREEN LOGO.jpg" class="header-logo__image" alt="Logo" /> -->
+                  </a>
+                </div>
+                <!-- HEADER LOGO : end -->
+
+                <!-- HEADER TITLE TAGLINE : begin -->
+                <div class="header-title-tagline">
+                  <!-- <div class="header-title">
+                    <a href="index.html" class="header-title__link">Rosegreen</a>
+                  </div> -->
+
+                  <p class="header-tagline">Be smart by filling proper nutrients</p>
+                </div>
+                <!-- HEADER TITLE TAGLINE : end -->
+              </div>
+            </div>
+            <!-- HEADER BRANDING : end -->
+
+            <!-- HEADER MENU : begin -->
+            <nav class="header-menu" aria-label="Header menu">
+              <ul class="header-menu__list" role="menu">
+                <!-- MENU ITEM : begin -->
+                <li class="header-menu__item">
+                  <span class="header-menu__item-link-wrapper">
+                    <a href="index.html" class="header-menu__item-link">Home</a>
+                  </span>
+
+                  <!-- <button type="button" class="header-menu__submenu-toggle" title="Expand submenu">
+                    <span class="header-menu__submenu-toggle-icon" aria-hidden="true"></span>
+                  </button> -->
+
+                  <!-- <ul class="header-menu__submenu">
+                    <li class="header-menu__item header-menu__item--current">
+                      <a href="index.html" class="header-menu__item-link" role="menuitem">Home 1</a>
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="index-2.html" class="header-menu__item-link" role="menuitem"
+                        >Home 2</a
+                      >
+                    </li>
+                  </ul> -->
+                </li>
+                <!-- MENU ITEM : end -->
+
+                <!-- MENU ITEM : begin -->
+                <li
+                  class="header-menu__item header-menu__item--current header-menu__item--has-children">
+                  <span class="header-menu__item-link-wrapper">
+                    <a href="our-products.html" class="header-menu__item-link">Our Products</a>
+                  </span>
+                </li>
+                <!-- MENU ITEM : end -->
+
+                <!-- MENU ITEM : begin -->
+                <!-- <li class="header-menu__item header-menu__item--has-children">
+                  <span class="header-menu__item-link-wrapper">
+                    <a href="product-archive.html" class="header-menu__item-link">Store</a>
+                  </span>
+
+                  <button type="button" class="header-menu__submenu-toggle" title="Expand submenu">
+                    <span class="header-menu__submenu-toggle-icon" aria-hidden="true"></span>
+                  </button>
+
+                  <ul class="header-menu__submenu">
+                    <li class="header-menu__item">
+                      <a href="product-archive.html" class="header-menu__item-link" role="menuitem"
+                        >Products</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="product-cart.html" class="header-menu__item-link" role="menuitem"
+                        >Cart</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="product-checkout.html" class="header-menu__item-link" role="menuitem"
+                        >Checkout</a
+                      >
+                    </li>
+                  </ul>
+                </li> -->
+                <!-- MENU ITEM : end -->
+
+                <!-- MENU ITEM : begin -->
+                <li class="header-menu__item header-menu__item--has-children">
+                  <span class="header-menu__item-link-wrapper">
+                    <a href="about.html" class="header-menu__item-link">About Us</a>
+                  </span>
+
+                  <!-- <button type="button" class="header-menu__submenu-toggle" title="Expand submenu">
+                    <span class="header-menu__submenu-toggle-icon" aria-hidden="true"></span>
+                  </button>
+
+                  <ul class="header-menu__submenu">
+                    <li class="header-menu__item">
+                      <a href="blog-archive.html" class="header-menu__item-link" role="menuitem"
+                        >Blog</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="gallery-archive.html" class="header-menu__item-link" role="menuitem"
+                        >Galleries</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="person-archive.html" class="header-menu__item-link" role="menuitem"
+                        >Our Team</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a
+                        href="testimonial-archive.html"
+                        class="header-menu__item-link"
+                        role="menuitem"
+                        >Testimonials</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="faq-archive.html" class="header-menu__item-link" role="menuitem"
+                        >FAQ</a
+                      >
+                    </li>
+                  </ul> -->
+                </li>
+                <!-- MENU ITEM : end -->
+
+                <!-- MENU ITEM : begin -->
+                <li class="header-menu__item">
+                  <span class="header-menu__item-link-wrapper">
+                    <a href="contact.html" class="header-menu__item-link">Contact</a>
+                  </span>
+                </li>
+                <!-- MENU ITEM : end -->
+
+                <!-- MENU ITEM : begin -->
+                <!-- <li class="header-menu__item header-menu__item--has-children">
+                  <span class="header-menu__item-link-wrapper">
+                    <a href="typography.html" class="header-menu__item-link">More</a>
+                  </span>
+
+                  <button type="button" class="header-menu__submenu-toggle" title="Expand submenu">
+                    <span class="header-menu__submenu-toggle-icon" aria-hidden="true"></span>
+                  </button>
+
+                  <ul class="header-menu__submenu">
+                    <li class="header-menu__item">
+                      <a href="typography.html" class="header-menu__item-link" role="menuitem"
+                        >Typography</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="elements.html" class="header-menu__item-link" role="menuitem"
+                        >Elements</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="sidebar-left.html" class="header-menu__item-link" role="menuitem"
+                        >Left Sidebar</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="sidebar-right.html" class="header-menu__item-link" role="menuitem"
+                        >Right Sidebar</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="search-results.html" class="header-menu__item-link" role="menuitem"
+                        >Search Results</a
+                      >
+                    </li>
+
+                    <li class="header-menu__item">
+                      <a href="404.html" class="header-menu__item-link" role="menuitem"
+                        >Error 404 Page</a
+                      >
+                    </li>
+                  </ul>
+                </li> -->
+                <!-- MENU ITEM : end -->
+              </ul>
+            </nav>
+            <!-- HEADER MENU : end -->
+
+            <!-- HEADER SEARCH : begin -->
+            <!-- <div class="header-search">
+              <div class="header-search__form"> -->
+            <!-- SEARCH FORM : begin -->
+            <!-- <form class="search-form" action="search-results.html" method="get" role="search">
+                  <div class="search-form__inner">
+                    <div class="search-form__input-holder">
+                      <input
+                        class="search-form__input"
+                        type="text"
+                        name="s"
+                        placeholder="Search..."
+                        value="" />
+
+                      <button class="search-form__button" type="submit" title="Search">
+                        <span class="search-form__button-icon" aria-hidden="true"></span>
+                      </button>
+                    </div>
+                  </div>
+                </form> -->
+            <!-- SEARCH FORM : end -->
+            <!-- </div> -->
+
+            <!-- <button type="button" class="header-search__toggle" title="Search">
+                <span class="header-search__toggle-icon" aria-hidden="true"></span>
+              </button>
+            </div> -->
+            <!-- HEADER SEARCH : end -->
+
+            <!-- HEADER PANEL : begin -->
+            <div class="header-panel">
+              <div class="header-panel__inner">
+                <!-- HEADER PANEL TOP : begin -->
+                <div class="header-panel__top">
+                  <div class="header-panel__top-inner">
+                    <!-- HEADER CTA : begin -->
+                    <!-- <div class="header-cta">
+                      <a href="contact.html" class="header-cta__button">Make An Appointment</a>
+                    </div> -->
+                    <!-- HEADER CTA : end -->
+
+                    <!-- HEADER CONTACT : begin -->
+                    <div class="header-contact">
+                      <div class="header-contact__inner">
+                        <ul class="header-contact__list">
+                          <!-- CONTACT ITEM : begin -->
+                          <li class="header-contact__item header-contact__item--has-icon">
+                            <span
+                              class="header-contact__item-icon icon-phone"
+                              aria-hidden="true"></span>
+                            <a href="tel:12346789">+971 52 457 3962</a>
+                          </li>
+                          <!-- CONTACT ITEM : end -->
+
+                          <!-- CONTACT ITEM : begin -->
+                          <li class="header-contact__item header-contact__item--has-icon">
+                            <span
+                              class="header-contact__item-icon icon-envelope-o"
+                              aria-hidden="true"></span>
+                            <a href="mailto:sales@healthlinkmedicalstore.ae"
+                              >sales@healthlinkmedicalstore.ae</a
+                            >
+                          </li>
+                          <!-- CONTACT ITEM : end -->
+
+                          <!-- CONTACT ITEM : begin -->
+                          <li class="header-contact__item header-contact__item--has-icon">
+                            <span
+                              class="header-contact__item-icon icon-map-marker"
+                              aria-hidden="true"></span>
+                            <p>
+                              HEALTH LINK MEDICAL STORE LLC<br />
+                              Industrial Area 18<br />
+                              Opp to Sedra Spa, Maleha Road, <br />
+                              Sharjah , UAE
+                            </p>
+                          </li>
+                          <!-- CONTACT ITEM : end -->
+
+                          <!-- CONTACT ITEM : begin -->
+                          <li class="header-contact__item header-contact__item--has-icon">
+                            <span
+                              class="header-contact__item-icon icon-clock-o"
+                              aria-hidden="true"></span>
+                            <dl>
+                              <dd>Mon - Sat : 9am - 6pm</dd>
+                              <dd>Sun : Closed</dd>
+                            </dl>
+                          </li>
+                          <!-- CONTACT ITEM : end -->
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- HEADER CONTACT : end -->
+                  </div>
+                </div>
+                <!-- HEADER PANEL TOP : end -->
+
+                <!-- HEADER PANEL BOTTOM : begin -->
+                <div class="header-panel__bottom">
+                  <div class="header-panel__bottom-inner">
+                    <!-- HEADER SOCIAL : begin -->
+                    <div class="header-social">
+                      <ul class="header-social__list">
+                        <!-- SOCIAL ITEM : begin -->
+                        <li class="header-social__item header-social__item--facebook">
+                          <a
+                            class="header-social__item-link"
+                            href="#facebook"
+                            target="_blank"
+                            title="Facebook">
+                            <span
+                              class="header-social__icon icon-facebook"
+                              aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        <!-- SOCIAL ITEM : end -->
+
+                        <!-- SOCIAL ITEM : begin -->
+                        <li class="header-social__item header-social__item--instagram">
+                          <a
+                            class="header-social__item-link"
+                            href="#instagram"
+                            target="_blank"
+                            title="Instagram">
+                            <span
+                              class="header-social__icon icon-instagram"
+                              aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        <!-- SOCIAL ITEM : end -->
+
+                        <!-- SOCIAL ITEM : begin -->
+                        <li class="header-social__item header-social__item--twitter">
+                          <a
+                            class="header-social__item-link"
+                            href="#twitter"
+                            target="_blank"
+                            title="Twitter">
+                            <span
+                              class="header-social__icon icon-twitter"
+                              aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        <!-- SOCIAL ITEM : end -->
+
+                        <!-- SOCIAL ITEM : begin -->
+                        <li class="header-social__item header-social__item--youtube">
+                          <a
+                            class="header-social__item-link"
+                            href="#youtube"
+                            target="_blank"
+                            title="YouTube">
+                            <span
+                              class="header-social__icon icon-youtube"
+                              aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        <!-- SOCIAL ITEM : end -->
+                      </ul>
+                    </div>
+                    <!-- HEADER SOCIAL : end -->
+
+                    <span class="header-panel__bottom-decor" aria-hidden="true"></span>
+
+                    <!-- HEADER CART : begin -->
+                    <!-- <div class="header-cart">
+                      <a href="product-cart.html" class="header-cart__button">
+                        <span class="header-cart__button-icon" aria-hidden="true"></span>
+                        <span class="header-cart__button-info">3</span>
+                      </a>
+                    </div> -->
+                    <!-- HEADER CART : end -->
+                  </div>
+                </div>
+                <!-- HEADER PANEL BOTTOM : end -->
+              </div>
+
+              <button type="button" class="header-panel__toggle">
+                <span class="header-panel__toggle-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+            <!-- HEADER PANEL : end -->
+
+            <button type="button" class="header-mobile-toggle">
+              <span class="header-mobile-toggle__icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- HEADER : end -->
+
+      <!-- CORE : begin -->
+      <div id="core">
+        <div class="core__inner">
+          <!-- PAGE HEADER : begin -->
+          <div class="page-header">
+            <div class="page-header__inner">
+              <div class="lsvr-container">
+                <div class="page-header__content">
+                  <h1 class="page-header__title">B-COMPLEX</h1>
+
+                  <!-- BREADCRUMBS : begin -->
+                  <div class="breadcrumbs">
+                    <div class="breadcrumbs__inner">
+                      <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                          <a href="index.html" class="breadcrumbs__link">Home</a>
+                        </li>
+
+                        <li class="breadcrumbs__item">
+                          <a href="our-products.html" class="breadcrumbs__link">Our Products</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- BREADCRUMBS : end -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- PAGE HEADER : end -->
+
+          <!-- CORE COLUMNS : begin -->
+          <div class="core__columns">
+            <div class="core__columns-inner">
+              <div class="lsvr-container">
+                <!-- COLUMNS GRID : begin -->
+                <div class="core__columns-grid lsvr-grid">
+                  <!-- MAIN COLUMN : begin -->
+                  <div
+                    class="core__columns-col core__columns-col--main core__columns-col--left lsvr-grid__col lsvr-grid__col--span-9 lsvr-grid__col--md-span-12">
+                    <!-- MAIN : begin -->
+                    <main id="main">
+                      <div class="main__inner">
+                        <!-- PAGE : begin -->
+                        <div class="page service-post-page service-post-single">
+                          <div class="page__content">
+                            <!-- POST : begin -->
+                            <article class="post service-post">
+                              <div class="post__inner">
+                                <!-- POST CONTENT : begin -->
+                                <div class="post__content">
+                                  <p>
+                                    B-COMPLEX is a set of B vitamins that contribute to your body's
+                                    functions, including cardiovascular and cell health. Vitamin BI
+                                    (thiamine) is essential for the proper development and function
+                                    of organs such as the brain and heart. Riboflavin (vitamin B2)
+                                    is utilised to break down lipids and medicines. Vitamin B5
+                                    (pantothenic acid) is necessary for proper brain and nervous
+                                    system function. Vitamin B6 (pyridoxine) helps the body produce
+                                    new red blood cells, which transport oxygen throughout the body.
+                                    It also strengthens the immune system. Vitamin B7 (biotin) is
+                                    necessary for healthy hair, nails, and nerve function. Vitamin
+                                    B9 (folic acid) (Folate in its natural state) is used to create
+                                    DNA and genetic material.Vitamin B12 (cobalamin) improves energy
+                                    metabolism and helps to sustain the neurological system.
+                                  </p>
+
+                                  <!-- <table>
+                                    <thead>
+                                      <tr>
+                                        <th>Service</th>
+                                        <th>Price</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Wash</td>
+                                        <td>$10.50</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Cut and Finish</td>
+                                        <td>$19.99</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Blow Dries</td>
+                                        <td>$14</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Hair Colouring</td>
+                                        <td>$12.50</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Evening Hairdressing</td>
+                                        <td>$18.99</td>
+                                      </tr>
+                                    </tbody>
+                                  </table> -->
+                                </div>
+                                <!-- POST CONTENT : end -->
+
+                                <!-- POST GALLERY : begin -->
+                                <div class="post__gallery">
+                                  <h3 class="post__gallery-title">Gallery</h3>
+
+                                  <ul
+                                    class="post__image-list lsvr-grid lsvr-grid--4-cols lsvr-grid--md-2-cols lsvr-grid--masonry">
+                                    <!-- GALLERY IMAGE : begin -->
+                                    <li class="post__image-item lsvr-grid__col">
+                                      <a
+                                        href="images/B COMPLEX 01.jpg"
+                                        class="post__image-link open-in-lightbox">
+                                        <img
+                                          src="images/B COMPLEX 01.jpg"
+                                          class="post__image"
+                                          alt="Gallery image" />
+                                      </a>
+                                    </li>
+                                    <!-- GALLERY IMAGE : end -->
+
+                                    <!-- GALLERY IMAGE : begin -->
+                                    <li class="post__image-item lsvr-grid__col">
+                                      <a
+                                        href="images/B COMPLEX 2.jpg"
+                                        class="post__image-link open-in-lightbox">
+                                        <img
+                                          src="images/B COMPLEX 2.jpg"
+                                          class="post__image"
+                                          alt="Gallery image" />
+                                      </a>
+                                    </li>
+                                    <!-- GALLERY IMAGE : end -->
+
+                                    <!-- GALLERY IMAGE : begin -->
+                                    <li class="post__image-item lsvr-grid__col">
+                                      <a
+                                        href="images/B COMPLEX 3.jpg"
+                                        class="post__image-link open-in-lightbox">
+                                        <img
+                                          src="images/B COMPLEX 3.jpg"
+                                          class="post__image"
+                                          alt="Gallery image" />
+                                      </a>
+                                    </li>
+                                    <!-- GALLERY IMAGE : end -->
+
+                                    <!-- GALLERY IMAGE : begin -->
+                                    <!-- <li class="post__image-item lsvr-grid__col">
+                                      <a
+                                        href="images/gallery_04.jpg"
+                                        class="post__image-link open-in-lightbox">
+                                        <img
+                                          src="images/gallery_04.jpg"
+                                          class="post__image"
+                                          alt="Gallery image" />
+                                      </a>
+                                    </li> -->
+                                    <!-- GALLERY IMAGE : end -->
+
+                                    <!-- GALLERY IMAGE : begin -->
+                                    <!-- <li class="post__image-item lsvr-grid__col">
+                                      <a
+                                        href="images/gallery_05.jpg"
+                                        class="post__image-link open-in-lightbox">
+                                        <img
+                                          src="images/gallery_05.jpg"
+                                          class="post__image"
+                                          alt="Gallery image" />
+                                      </a>
+                                    </li> -->
+                                    <!-- GALLERY IMAGE : end -->
+
+                                    <!-- GALLERY IMAGE : begin -->
+                                    <!-- <li class="post__image-item lsvr-grid__col">
+                                      <a
+                                        href="images/gallery_06.jpg"
+                                        class="post__image-link open-in-lightbox">
+                                        <img
+                                          src="images/gallery_06.jpg"
+                                          class="post__image"
+                                          alt="Gallery image" />
+                                      </a>
+                                    </li> -->
+                                    <!-- GALLERY IMAGE : end -->
+
+                                    <!-- GALLERY IMAGE : begin -->
+                                    <!-- <li class="post__image-item lsvr-grid__col">
+                                      <a
+                                        href="images/gallery_07.jpg"
+                                        class="post__image-link open-in-lightbox">
+                                        <img
+                                          src="images/gallery_07.jpg"
+                                          class="post__image"
+                                          alt="Gallery image" />
+                                      </a>
+                                    </li> -->
+                                    <!-- GALLERY IMAGE : end -->
+
+                                    <!-- GALLERY IMAGE : begin -->
+                                    <!-- <li class="post__image-item lsvr-grid__col">
+                                      <a
+                                        href="images/gallery_08.jpg"
+                                        class="post__image-link open-in-lightbox">
+                                        <img
+                                          src="images/gallery_08.jpg"
+                                          class="post__image"
+                                          alt="Gallery image" />
+                                      </a>
+                                    </li> -->
+                                    <!-- GALLERY IMAGE : end -->
+                                  </ul>
+                                </div>
+                                <!-- POST GALLERY : end -->
+                              </div>
+                            </article>
+                            <!-- POST : end -->
+                          </div>
+                        </div>
+                        <!-- PAGE : end -->
+                      </div>
+                    </main>
+                    <!-- MAIN : end -->
+                  </div>
+                  <!-- MAIN COLUMN : end -->
+
+                  <!-- SIDEBAR COLUMN : begin -->
+                  <!-- <div
+                    class="core__columns-col core__columns-col--sidebar core__columns-col--right lsvr-grid__col lsvr-grid__col--span-3 lsvr-grid__col--md-span-12"> -->
+                  <!-- SIDEBAR : begin -->
+                  <!-- <aside id="sidebar">
+                      <div class="sidebar__inner"> -->
+                  <!-- LSVR SERVICE LIST WIDGET : begin -->
+                  <!-- <div class="widget lsvr-service-list-widget">
+                          <div class="widget__inner">
+                            <h3 class="widget__title">Services</h3>
+                            <div class="widget__content">
+                              <ul class="lsvr-service-list-widget__list"> -->
+                  <!-- SERVICE LIST ITEM : begin -->
+                  <!-- <li
+                                  class="lsvr-service-list-widget__item lsvr-service-list-widget__item--has-icon lsvr-service-list-widget__item--current">
+                                  <span
+                                    class="lsvr-service-list-widget__item-icon icon-powder-brush"
+                                    aria-hidden="true"></span>
+                                  <a
+                                    href="service-single.html"
+                                    class="lsvr-service-list-widget__item-link"
+                                    >Cosmetics</a
+                                  >
+                                </li> -->
+                  <!-- SERVICE LIST ITEM : end -->
+
+                  <!-- SERVICE LIST ITEM : begin -->
+                  <!-- <li
+                                  class="lsvr-service-list-widget__item lsvr-service-list-widget__item--has-icon">
+                                  <span
+                                    class="lsvr-service-list-widget__item-icon icon-hair-dryer"
+                                    aria-hidden="true"></span>
+                                  <a
+                                    href="service-single.html"
+                                    class="lsvr-service-list-widget__item-link"
+                                    >Hairdressing</a
+                                  >
+                                </li> -->
+                  <!-- SERVICE LIST ITEM : end -->
+
+                  <!-- SERVICE LIST ITEM : begin -->
+                  <!-- <li
+                                  class="lsvr-service-list-widget__item lsvr-service-list-widget__item--has-icon">
+                                  <span
+                                    class="lsvr-service-list-widget__item-icon icon-beard"
+                                    aria-hidden="true"></span>
+                                  <a
+                                    href="service-single.html"
+                                    class="lsvr-service-list-widget__item-link"
+                                    >Barber</a
+                                  >
+                                </li> -->
+                  <!-- SERVICE LIST ITEM : end -->
+
+                  <!-- SERVICE LIST ITEM : begin -->
+                  <!-- <li
+                                  class="lsvr-service-list-widget__item lsvr-service-list-widget__item--has-icon">
+                                  <span
+                                    class="lsvr-service-list-widget__item-icon icon-spa-lotion"
+                                    aria-hidden="true"></span>
+                                  <a
+                                    href="service-single.html"
+                                    class="lsvr-service-list-widget__item-link"
+                                    >Massages</a
+                                  >
+                                </li> -->
+                  <!-- SERVICE LIST ITEM : end -->
+
+                  <!-- SERVICE LIST ITEM : begin -->
+                  <!-- <li
+                                  class="lsvr-service-list-widget__item lsvr-service-list-widget__item--has-icon">
+                                  <span
+                                    class="lsvr-service-list-widget__item-icon icon-lotus-flower"
+                                    aria-hidden="true"></span>
+                                  <a
+                                    href="service-single.html"
+                                    class="lsvr-service-list-widget__item-link"
+                                    >Body Treatments</a
+                                  >
+                                </li> -->
+                  <!-- SERVICE LIST ITEM : end -->
+
+                  <!-- SERVICE LIST ITEM : begin -->
+                  <!-- <li
+                                  class="lsvr-service-list-widget__item lsvr-service-list-widget__item--has-icon">
+                                  <span
+                                    class="lsvr-service-list-widget__item-icon icon-essence-candle-1"
+                                    aria-hidden="true"></span>
+                                  <a
+                                    href="service-single.html"
+                                    class="lsvr-service-list-widget__item-link"
+                                    >Aromatherapy</a
+                                  >
+                                </li> -->
+                  <!-- SERVICE LIST ITEM : end -->
+                  <!-- </ul>
+                            </div>
+                          </div>
+                        </div> -->
+                  <!-- LSVR SERVICE LIST WIDGET : end -->
+                  <!-- </div>
+                    </aside> -->
+                  <!-- SIDEBAR : end -->
+                  <!-- </div> -->
+                  <!-- SIDEBAR COLUMN : end -->
+                </div>
+                <!-- COLUMNS GRID : end -->
+              </div>
+            </div>
+          </div>
+          <!-- CORE COLUMNS : end -->
+        </div>
+      </div>
+      <!-- CORE : end -->
+
+      <!-- FOOTER : begin -->
+      <footer id="footer">
+        <div class="footer__inner">
+          <!-- FOOTER WIDGETS : begin -->
+          <div class="footer-widgets" style="background-image: url('images/footer_bg.jpg')">
+            <div class="footer-widgets__inner">
+              <div class="lsvr-container">
+                <!-- WIDGETS GRID : begin -->
+                <div class="footer-widgets__grid lsvr-grid">
+                  <!-- GRID COLUMN : begin -->
+                  <div
+                    class="footer-widgets__grid-col lsvr-grid__col lsvr-grid__col--span-2 lsvr-grid__col--md-span-12">
+                    <!-- TEXT WIDGET : begin -->
+                    <div class="widget lsvr-text-widget">
+                      <div class="widget__inner">
+                        <h3 class="widget__title">About Rosegreen</h3>
+                        <div class="widget__content">
+                          <p>
+                            Welcome to Rosegreen, where wellness meets nature. We believe that true
+                            health starts from the inside out, and we are dedicated to providing
+                            high-quality supplements that empower you to lead a vibrant and
+                            fulfilling life.
+                          </p>
+                          <p>
+                            Want to know more?
+                            <a href="about.html">Discover all about us.</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- TEXT WIDGET : end -->
+                  </div>
+                  <!-- GRID COLUMN : end -->
+
+                  <!-- GRID COLUMN : begin -->
+                  <div
+                    class="footer-widgets__grid-col lsvr-grid__col lsvr-grid__col--span-2 lsvr-grid__col--md-span-12">
+                    <!-- IMAGE GRID WIDGET : begin -->
+                    <div class="widget lsvr-image-grid-widget">
+                      <div class="widget__inner">
+                        <h3 class="widget__title sm-text-start text-end">Follow Us on</h3>
+                        <div class="widget__content">
+                          <div
+                            class="lsvr-images-widget__grid flex lsvr-grid--4-cols lsvr-grid--sm-2-cols justify-end sm-justify-start gap-2">
+                            <div class="">
+                              <a href="">
+                                <p class="brand_images">
+                                  <img src="images/brand_01.png" alt="Brand 1" />
+                                </p>
+                              </a>
+                            </div>
+
+                            <div class="">
+                              <a href="">
+                                <p class="brand_images">
+                                  <img src="images/brand_02.png" alt="Brand 1" />
+                                </p>
+                              </a>
+                            </div>
+
+                            <div class="">
+                              <a href="">
+                                <p class="brand_images">
+                                  <img src="images/brand_03.png" alt="Brand 1" />
+                                </p>
+                              </a>
+                            </div>
+
+                            <div class="">
+                              <a href="">
+                                <p class="brand_images">
+                                  <img src="images/brand_04.png" alt="Brand 1" />
+                                </p>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- IMAGE GRID WIDGET : end -->
+                  </div>
+                  <!-- GRID COLUMN : end -->
+                </div>
+                <!-- WIDGETS GRID : end -->
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER WIDGETS : end -->
+
+          <!-- FOOTER BOTTOM : begin -->
+          <div class="footer-bottom">
+            <div class="lsvr-container">
+              <div class="footer-bottom__inner">
+                <!-- FOOTER MENU : begin -->
+                <nav class="footer-menu">
+                  <ul class="footer-menu__list">
+                    <li class="footer-menu__item">
+                      <a href="index.html">Home</a>
+                    </li>
+
+                    <li class="footer-menu__item">
+                      <a href="our-products.html">Our Products</a>
+                    </li>
+
+                    <li class="footer-menu__item">
+                      <a href="about.html">About Us</a>
+                    </li>
+
+                    <li class="footer-menu__item">
+                      <a href="contact.html">Contact</a>
+                    </li>
+
+                    <!-- <li class="footer-menu__item">
+                      <a href="../beautyspot.rtl/index.html">RTL Version</a>
+                    </li> -->
+                  </ul>
+                </nav>
+                <!-- FOOTER MENU : end -->
+
+                <!-- FOOTER TEXT : begin -->
+                <div class="footer-text">
+                  <p>
+                    <a href="index.html">Rosegreen</a>
+                    - Be smart by filling proper nutrients
+                  </p>
+                </div>
+                <!-- FOOTER TEXT : end -->
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER BOTTOM : end -->
+        </div>
+      </footer>
+      <!-- FOOTER : end -->
+    </div>
+    <!-- WRAPPER : end -->
+
+    <!-- SCRIPTS : begin -->
+    <script src="assets/js/jquery-3.5.1.min.js" type="text/javascript"></script>
+    <script src="assets/js/third-party-scripts.min.js" type="text/javascript"></script>
+    <script src="assets/js/scripts.js" type="text/javascript"></script>
+    <!-- SCRIPTS : end -->
+  </body>
+</html>
