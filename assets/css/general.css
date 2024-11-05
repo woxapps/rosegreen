@@ -6226,7 +6226,7 @@ iframe.google-map {
 }
 
 .lsvr-slide-list__item-bg_1 {
-  background-image: url("/images/Banner1.jpg");
+  background-image: url("./../../images/Banner1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -6234,14 +6234,14 @@ iframe.google-map {
 /* Medium screens (e.g., tablets) */
 @media (min-width: 426px) and (max-width: 768px) {
   .lsvr-slide-list__item-bg_1 {
-    background-image: url("/images/Banner1-medium.jpg");
+    background-image: url("./../../images/Banner1-medium.jpg");
   }
 }
 
 /* Small screens (e.g., mobile) */
 @media (min-width: 300px) and (max-width: 425px) {
   .lsvr-slide-list__item-bg_1 {
-    background-image: url("/images/Banner1-small.jpg");
+    background-image: url("./../../images/Banner1-small.jpg");
   }
   .service-post-single .post__image-item {
     margin: 0rem;
@@ -6249,7 +6249,7 @@ iframe.google-map {
 }
 
 .lsvr-slide-list__item-bg_2 {
-  background-image: url("/images/Banner2.jpg");
+  background-image: url("./../../images/Banner2.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -6257,14 +6257,14 @@ iframe.google-map {
 /* Medium screens (e.g., tablets) */
 @media (min-width: 426px) and (max-width: 768px) {
   .lsvr-slide-list__item-bg_2 {
-    background-image: url("/images/Banner2-medium.jpg");
+    background-image: url("./../../images/Banner2-medium.jpg");
   }
 }
 
 /* Small screens (e.g., mobile) */
 @media (min-width: 300px) and (max-width: 425px) {
   .lsvr-slide-list__item-bg_2 {
-    background-image: url("/images/Banner2-small.jpg");
+    background-image: url("./../../images/Banner2-small.jpg");
   }
   .service-post-single .post__image-item {
     margin: 0rem;
@@ -6272,7 +6272,7 @@ iframe.google-map {
 }
 
 .lsvr-slide-list__item-bg_3 {
-  background-image: url("/images/Banner3.jpg");
+  background-image: url("./../../images/Banner3.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -6280,14 +6280,14 @@ iframe.google-map {
 /* Medium screens (e.g., tablets) */
 @media (min-width: 426px) and (max-width: 768px) {
   .lsvr-slide-list__item-bg_3 {
-    background-image: url("/images/Banner3-medium.jpg");
+    background-image: url("./../../images/Banner3-medium.jpg");
   }
 }
 
 /* Small screens (e.g., mobile) */
 @media (min-width: 300px) and (max-width: 425px) {
   .lsvr-slide-list__item-bg_3 {
-    background-image: url("/images/Banner3-small.jpg");
+    background-image: url("./../../images/Banner3-small.jpg");
   }
   .service-post-single .post__image-item {
     margin: 0rem;
